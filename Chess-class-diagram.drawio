@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T13:03:36.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="KFRQEnyu5RzHyOrJgp6H" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-26T13:04:22.517Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="BC2YjpBePCJ1NHJJs69O" version="24.1.0" type="github">
   <diagram name="Page-1" id="UGAyzT8rciiFniJ-YuEJ">
     <mxGraphModel dx="1222" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -208,7 +208,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-109" value="Chess Class Diagram" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="320" y="20" width="100" height="40" as="geometry" />
+          <mxGeometry x="350" y="20" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
