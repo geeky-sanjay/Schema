@@ -1,26 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T13:04:36.767Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="d73AU3DKjNpgYen2ltZG" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-26T13:32:45.752Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="qJUvXYcufbSiJOfoidxx" version="24.1.0" type="github">
   <diagram name="Page-1" id="UGAyzT8rciiFniJ-YuEJ">
-    <mxGraphModel dx="1222" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1818" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-1" value="Game" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="134" width="160" height="138" as="geometry" />
+          <mxGeometry x="-160" y="44" width="410" height="236" as="geometry" />
         </mxCell>
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-2" value="-&amp;nbsp;players: Player[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+          <mxGeometry y="26" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-19" value="- currentPlayer: Player" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-1">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
+          <mxGeometry y="52" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-20" value="&lt;div&gt;- status:GameStatus&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-1">
-          <mxGeometry y="78" width="160" height="26" as="geometry" />
+          <mxGeometry y="78" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-21" value="- board: Chessboard" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-1">
-          <mxGeometry y="104" width="160" height="26" as="geometry" />
+          <mxGeometry y="104" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H-SjnlmVFcyGF8M-FG-U-113" value="&lt;span style=&quot;color: rgb(36, 41, 46); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 11.9px; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;- enPassantPawn: Pawn&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-1">
+          <mxGeometry y="130" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-1">
-          <mxGeometry y="130" width="160" height="8" as="geometry" />
+          <mxGeometry y="156" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="H-SjnlmVFcyGF8M-FG-U-111" value="&lt;span style=&quot;color: rgb(36, 41, 46); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; font-size: 11.9px; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;+ handleCastling(): void&lt;br/&gt;+ handlePawnPromotion(pawn: Pawn, newPiece: Figure): void&lt;br/&gt;+ handleEnPassant(pawn: Pawn, targetPosition: Position): void&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-1">
+          <mxGeometry y="164" width="410" height="72" as="geometry" />
         </mxCell>
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-23" value="Chessboard" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="212" width="160" height="60" as="geometry" />
@@ -107,7 +113,7 @@
           <mxGeometry y="60" width="190" height="32" as="geometry" />
         </mxCell>
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-57" value="Knight extends Figure" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="494" width="190" height="92" as="geometry" />
+          <mxGeometry x="80" y="494" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-58" value="&lt;div&gt;- name: String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-57">
           <mxGeometry y="26" width="190" height="26" as="geometry" />
@@ -115,11 +121,11 @@
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-57">
           <mxGeometry y="52" width="190" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="H-SjnlmVFcyGF8M-FG-U-60" value="&lt;div&gt;+ legalMoves(): List&amp;lt;Position&amp;gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-57">
-          <mxGeometry y="60" width="190" height="32" as="geometry" />
+        <mxCell id="H-SjnlmVFcyGF8M-FG-U-60" value="&lt;div&gt;&lt;div&gt;+ legalMoves(): List&amp;lt;Position&amp;gt;&lt;/div&gt;&lt;div&gt;+ castle(): void&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-57">
+          <mxGeometry y="60" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-61" value="Pawn extends Figure" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="494" width="190" height="92" as="geometry" />
+          <mxGeometry x="340" y="494" width="190" height="130" as="geometry" />
         </mxCell>
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-62" value="&lt;div&gt;- name: String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-61">
           <mxGeometry y="26" width="190" height="26" as="geometry" />
@@ -127,8 +133,8 @@
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-63" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-61">
           <mxGeometry y="52" width="190" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="H-SjnlmVFcyGF8M-FG-U-64" value="&lt;div&gt;+ legalMoves(): List&amp;lt;Position&amp;gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-61">
-          <mxGeometry y="60" width="190" height="32" as="geometry" />
+        <mxCell id="H-SjnlmVFcyGF8M-FG-U-64" value="&lt;div&gt;&lt;div&gt;+ legalMoves(): List&amp;lt;Position&amp;gt;&lt;/div&gt;&lt;div&gt;+ promote(): void&lt;/div&gt;&lt;div&gt;+ enPassantCapture(): void&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-61">
+          <mxGeometry y="60" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-65" value="Rook extends Figure" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="494" width="190" height="92" as="geometry" />
@@ -154,7 +160,7 @@
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-72" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="H-SjnlmVFcyGF8M-FG-U-69">
           <mxGeometry y="76" width="100" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="H-SjnlmVFcyGF8M-FG-U-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H-SjnlmVFcyGF8M-FG-U-73" target="H-SjnlmVFcyGF8M-FG-U-20">
+        <mxCell id="H-SjnlmVFcyGF8M-FG-U-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H-SjnlmVFcyGF8M-FG-U-73" target="H-SjnlmVFcyGF8M-FG-U-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H-SjnlmVFcyGF8M-FG-U-73" value="«GameStatus»&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;ONGOING,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;CHECK,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;CHECKMATE,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;STALEMETE&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
