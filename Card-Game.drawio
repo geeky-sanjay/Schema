@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T06:29:18.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Pno47d23VzUVcCk75-Uq" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T06:29:48.493Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="tMYSdcU3eUBgEvx9cxbN" version="24.1.0" type="github">
   <diagram name="Page-1" id="0ZeODY2rkwx9v6a-Vhrm">
     <mxGraphModel dx="1272" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -87,6 +87,15 @@
         </mxCell>
         <mxCell id="pGMpQ4QkJ0WIxUV93Ksc-61" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;TWO&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;THREE&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;FOUR&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;FIVE&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;SIX&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;SEVEN&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;EIGHT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;NINE&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;TEN&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;JACK&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;QUEEN&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;KING&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;ACE&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pGMpQ4QkJ0WIxUV93Ksc-60">
           <mxGeometry y="26" width="140" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="pGMpQ4QkJ0WIxUV93Ksc-62" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Rules&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="430" width="140" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="pGMpQ4QkJ0WIxUV93Ksc-63" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;- ruleTitle: String&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pGMpQ4QkJ0WIxUV93Ksc-62">
+          <mxGeometry y="30" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pGMpQ4QkJ0WIxUV93Ksc-64" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;- ruleDescription: String&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pGMpQ4QkJ0WIxUV93Ksc-62">
+          <mxGeometry y="56" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
