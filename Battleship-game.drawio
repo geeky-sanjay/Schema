@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T11:21:44.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="z8Z48uVWSuzwLItTVCMU" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T11:22:14.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="MXnChjm7MrdJoAhxQ2Uu" version="24.1.0" type="github">
   <diagram name="Page-1" id="1d2X0_wd4NPsI6ZP3d5k">
     <mxGraphModel dx="1272" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -126,6 +126,12 @@
         </mxCell>
         <mxCell id="0l86lAtkThGJZ2N1y4T1-52" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+ checkAllShipsSunk(): boolean&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+ addShip(Ship ship): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+ removeShip(Ship ship): void&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0l86lAtkThGJZ2N1y4T1-46">
           <mxGeometry y="60" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0l86lAtkThGJZ2N1y4T1-53" value="ShipType" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="570" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0l86lAtkThGJZ2N1y4T1-54" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;AIRCRAFT_CARRIER,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;BATTLESHIP,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;SUBMARINE,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;DESTROYER,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;PATROL_BOAT&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0l86lAtkThGJZ2N1y4T1-53">
+          <mxGeometry y="26" width="140" height="94" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
